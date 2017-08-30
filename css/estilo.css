@@ -7,14 +7,42 @@ header{
 width:100%;
 height:70px;
 background:#324E7B;
+flex-wrap: wrap;
 display: flex; 
-justify-content: center;    
+justify-content: center;
     
 }
 
 .contendor-header{
 width:80%;
 height: 100%;
-background: #F4806D;
+/* background: #F4806D;  */
+display: flex;
+justify-content: space-between;
+align-items: center;
+align-content: center;    
+    
     
 }
+
+
+.contendor-header nav ul li{
+    display: inline; 
+    padding-left: 15px;
+}
+
+.contendor-header nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    letter-spacing: 0.8px; 
+}
+
+.contendor-header nav ul li a:hover{
+    color: darkgrey;
+    font-weight: bold;
+}
+
+.logo h1{
+    color:#fff;
+}
+
